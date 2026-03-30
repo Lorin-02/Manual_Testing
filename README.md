@@ -14,7 +14,7 @@ This project focuses on testing the **Search functionality** of an e-commerce pl
 - API & UI Testing
 - Defect Reporting
 
-👉 [View Full Project](./evershop-search-testing)
+ [View Full Project](./Evershop_search_testing)
 
 ---
 

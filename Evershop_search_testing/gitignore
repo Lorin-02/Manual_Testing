@@ -1,0 +1,4 @@
+Evershop_search_testing/~$Q2\ &\ Q3\ (Test-Cases\ and\ Execution)\ .xlsx
+
+# Ignore Excel temp files
+~$*.xlsx
