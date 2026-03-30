@@ -1,0 +1,214 @@
+{
+  "info": {
+    "_postman_id": "e56bceaf-e04a-4c64-b410-b7af53def20c",
+    "name": "project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "45992289",
+    "_collection_link": "https://go.postman.co/collection/45992289-e56bceaf-e04a-4c64-b410-b7af53def20c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Cart",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://demo.evershop.io/cart?ajax=true",
+          "protocol": "https",
+          "host": [
+            "demo",
+            "evershop",
+            "io"
+          ],
+          "path": [
+            "cart"
+          ],
+          "query": [
+            {
+              "key": "ajax",
+              "value": "true",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Accessories",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://demo.evershop.io/accessories?ajax=true",
+          "protocol": "https",
+          "host": [
+            "demo",
+            "evershop",
+            "io"
+          ],
+          "path": [
+            "accessories"
+          ],
+          "query": [
+            {
+              "key": "ajax",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Checkout",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://demo.evershop.io/checkout?ajax=true",
+          "protocol": "https",
+          "host": [
+            "demo",
+            "evershop",
+            "io"
+          ],
+          "path": [
+            "checkout"
+          ],
+          "query": [
+            {
+              "key": "ajax",
+              "value": "true",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Search",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://demo.evershop.io/search?keyword=modern+ceramic+vase&ajax=true",
+          "protocol": "https",
+          "host": [
+            "demo",
+            "evershop",
+            "io"
+          ],
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "keyword",
+              "value": "modern+ceramic+vase"
+            },
+            {
+              "key": "ajax",
+              "value": "true",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ProductAdd",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Cookie",
+            "value": "",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"productId\": 15,\r\n  \"sku\": \"VASE-004-BLK\",\r\n  \"qty\": 3\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://demo.evershop.io/api/cart/mine/items?ajax=true",
+          "protocol": "https",
+          "host": [
+            "demo",
+            "evershop",
+            "io"
+          ],
+          "path": [
+            "api",
+            "cart",
+            "mine",
+            "items"
+          ],
+          "query": [
+            {
+              "key": "ajax",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://demo.evershop.io/api/cart/4a11849f-9b10-47ed-86f1-b87a17cf66a3/items/a887eb36-97b3-4c3d-a86c-a177275f1bd2?ajax=true",
+          "protocol": "https",
+          "host": [
+            "demo",
+            "evershop",
+            "io"
+          ],
+          "path": [
+            "api",
+            "cart",
+            "4a11849f-9b10-47ed-86f1-b87a17cf66a3",
+            "items",
+            "a887eb36-97b3-4c3d-a86c-a177275f1bd2"
+          ],
+          "query": [
+            {
+              "key": "ajax",
+              "value": "true",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
