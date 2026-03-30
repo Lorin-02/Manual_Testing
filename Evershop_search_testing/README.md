@@ -21,32 +21,27 @@ The main objective is to validate dynamic search behavior with different keyword
 
 ### ✅ Q1: Requirement Analysis  
 Prioritized client questions and feedback.  
-📄 [View File](./Q1-questions.xlsx)
+📄 [View File](Evershop_search_testing\Q1_Answer.xlsx)
 
 ---
 
-### ✅ Q2: Test Case Design  
+### ✅ Q2 & Q3: Test Case Design  
 Detailed test cases covering functional and edge scenarios.  
-📄 [View File](./Q2-test-cases.xlsx)
+📄 [View File](Evershop_search_testing/Q2 & Q3 (Test-Cases and Execution) .xlsx)
 
 ---
 
-### ✅ Q3: Test Execution  
-Execution results including pass/fail status for each test case.  
-📄 [View File](./Q3-test-execution-report.xlsx)
-
----
 
 ### ✅ Q4: API & UI Testing  
 End-to-end journey testing for "Stainless Steel Thermos" search, adding black/white products to cart, and verification.  
-📄 [View File](./Q4-api-ui-testing.pdf)
+📄 [View File](Evershop_search_testing\Q4.pdf)
 
 ---
 
 ## Defect
 Issues identified during testing:
 
-📁 [View Defect](./defect)
+📁 [View Defect](Evershop_search_testing\Ticket ID-01.png)
 
 ---
 
