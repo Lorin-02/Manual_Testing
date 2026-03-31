@@ -25,8 +25,7 @@ The main objective is to validate dynamic search behavior with different keyword
 ---
 
 ###  Q2 & Q3: Test Case Design & Execution  
-📄 [View File](./Q2_Q3_Test_Cases.xlsx)
-
+📄 [View File](./Q2_Q3_Test_Cases_Execution.xlsx)
 ---
 
 ###  Q4: API & UI Testing  
@@ -34,7 +33,7 @@ The main objective is to validate dynamic search behavior with different keyword
 
 ---
 
-## 🐞 Defect
+##  Defect
 
 ### 🔴 Ticket ID: 01  
 **Issue:** Auto-suggestion not appearing for partial keyword search  
